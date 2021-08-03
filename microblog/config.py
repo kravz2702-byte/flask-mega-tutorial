@@ -13,3 +13,4 @@ class Config(object):
     MAIL_USERNAMES = os.environ.get('MAIL_USERNAMES')
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     ADMINS = ['raba2312@rambler.ru']
+    POSTS_PER_PAGE = 3
